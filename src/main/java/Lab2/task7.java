@@ -1,4 +1,4 @@
-package org.example;
+package Lab2;
 
 public class task7 {
 

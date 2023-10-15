@@ -1,17 +1,18 @@
-package org.example;
+package Lab2;
 
-public class task9 {
+public class task8 {
 
-    public static void drawNumbersPyramid(int rows) {
+    public static void drawStarsPyramid(int rows) {
         for (int i = 1; i <= rows; i++) {
             for (int j = 1; j <= i; j++) {
-                System.out.print(j + " ");
+                System.out.print("* ");
             }
             System.out.println();
         }
     }
 
+
     public static void main(String[] args) {
-        drawNumbersPyramid(8);
+        drawStarsPyramid(8);
     }
 }
